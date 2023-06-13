@@ -32,7 +32,7 @@ Here's the data preprocessing steps that we apply to our datasets:
 
 ## Modelling
 
-Our neural networks consistf of 2-3 layers:
+Our neural network consists of 2-3 layers:
 1. We use **ReLU** as activation function for the input layer and the hidden layer
 2. We use **Sigmoid** as activation function for the putput layer
 
@@ -71,9 +71,15 @@ Here's how to save the model in (.h5) format:
 Here's how to download the model that already been saved:
 
 `from google.colab import files
+
 files.download('saved_model/my_model/variables/variables.data-00000-of-00001')
+
 files.download('saved_model/my_model/variables/variables.index')
+
 files.download('saved_model/my_model/fingerprint.pb')
+
 files.download('saved_model/my_model/keras_metadata.pb')
+
 files.download('saved_model/my_model/saved_model.pb')
+
 files.download('my_model.h5')`
