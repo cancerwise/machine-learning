@@ -36,7 +36,7 @@ Our neural networks consistf of 2-3 layers:
 1. We use **ReLU** as activation function for the input layer and the hidden layer
 2. We use **Sigmoid** as activation function for the putput layer
 
-##Training
+## Training
 
 We use: 
 1. **BinaryCrossentropy** to compute our model losses
@@ -60,13 +60,16 @@ We use:
 ## Saving Our Models
 
 Here's how to save the model:
+
 `!mkdir -p saved_model
 model.save('saved_model/my_model')`
 
 Here's how to save the model in (.h5) format:
+
 `model.save('my_model.h5')`
 
-Here's how to download the model that already been saved"
+Here's how to download the model that already been saved
+
 `from google.colab import files
 
 files.download('saved_model/my_model/variables/variables.data-00000-of-00001')
