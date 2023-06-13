@@ -2,7 +2,7 @@
 The repository for machine learning path cohort.
 Here below is an **outline** about how we built our ML models for CANCERWISE
 
-##Library
+## Library
 
 Here's list of libraries that we use to build our ML models:
 1. **Matplotlib**
@@ -12,17 +12,17 @@ Here's list of libraries that we use to build our ML models:
 5. **Seaborn**
 6. **Sklearn**
 
-##Dataset
+## Dataset
 
 In this Capstone Project, we use 3 datasets to create our models:
 1. [Lung Cancer Dataset] - from Kaggle (https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer)
 2. [Cervical Cancer Dataset] - from Kaggle (https://www.kaggle.com/datasets/loveall/cervical-cancer-risk-classification)
 3. [Brain Tumor Dataset] - from Data World (https://data.world/seekersoftec/risk-of-brain-tumor/workspace/file?filename=risk_of_brain_tumor.csv)
 
-##Data Preprocessing
+## Data Preprocessing
 
 Here's the data preprocessing steps that we apply to our datasets:
-1. **Feature Selection **
+1. **Feature Selection**
 2. **Imputing Missing Values**
 3. **Drop Duplicate Data**
 4. **Remove Outliers**
@@ -30,7 +30,7 @@ Here's the data preprocessing steps that we apply to our datasets:
 7. **Feature Scaling**
 8. **Resample the Data**
 
-##Modelling
+## Modelling
 
 Our neural networks consistf of 2-3 layers:
 1. We use **ReLU** as activation function for the input layer and the hidden layer
@@ -43,18 +43,21 @@ We use:
 2. **Adam** as our models optimizer 
 3. **Accuracy** as our metrics to evaluate our models
 
-##Result (Evaluation)
+## Result (Evaluation)
 
 **Lung Cancer Model**
+
 ![image](https://github.com/cancerwise/machine-learning/assets/92629964/2f5b38a4-bcf9-45cd-a51f-627a2fdb32b4)
 
 **Cervical Cancer Model**
+
 ![image](https://github.com/cancerwise/machine-learning/assets/92629964/e16f9c68-45be-4509-83af-2b0439c62d46)
 
 **Brain Tumor Model**
+
 ![image](https://github.com/cancerwise/machine-learning/assets/92629964/5e1cec44-087c-4416-8676-9b686f31093a)
 
-##Saving Our Models
+## Saving Our Models
 
 Here's how to save the model:
 `!mkdir -p saved_model
