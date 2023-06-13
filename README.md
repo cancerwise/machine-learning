@@ -15,9 +15,9 @@ Here's list of libraries that we use to build our ML models:
 ## Dataset
 
 In this Capstone Project, we use 3 datasets to create our models:
-1. [Lung Cancer Dataset] - from Kaggle (https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer)
-2. [Cervical Cancer Dataset] - from Kaggle (https://www.kaggle.com/datasets/loveall/cervical-cancer-risk-classification)
-3. [Brain Tumor Dataset] - from Data World (https://data.world/seekersoftec/risk-of-brain-tumor/workspace/file?filename=risk_of_brain_tumor.csv)
+1. [Lung Cancer Dataset](https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer) - from Kaggle
+2. [Cervical Cancer Dataset](https://www.kaggle.com/datasets/loveall/cervical-cancer-risk-classification) - from Kaggle
+3. [Brain Tumor Dataset](https://data.world/seekersoftec/risk-of-brain-tumor/workspace/file?filename=risk_of_brain_tumor.csv) - from Data World
 
 ## Data Preprocessing
 
@@ -68,10 +68,9 @@ Here's how to save the model in (.h5) format:
 
 `model.save('my_model.h5')`
 
-Here's how to download the model that already been saved
+Here's how to download the model that already been saved:
 
 `from google.colab import files
-
 files.download('saved_model/my_model/variables/variables.data-00000-of-00001')
 files.download('saved_model/my_model/variables/variables.index')
 files.download('saved_model/my_model/fingerprint.pb')
