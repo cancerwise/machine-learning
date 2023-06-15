@@ -4,7 +4,7 @@ Here below is an **outline** about how we built our ML models for CANCERWISE
 
 ## Library
 
-Here's list of libraries that we use to build our ML models:
+Here's a list of libraries that we use to build our ML models:
 1. **Matplotlib**
 2. **Numpy**
 3. **Tensorflow**
@@ -21,20 +21,20 @@ In this Capstone Project, we use 3 datasets to create our models:
 
 ## Data Preprocessing
 
-Here's the data preprocessing steps that we apply to our datasets:
+Here are the data preprocessing steps that we apply to our datasets:
 1. **Feature Selection**
 2. **Imputing Missing Values**
 3. **Drop Duplicate Data**
 4. **Remove Outliers**
-6. **Split the Data** (into training set, validation set, and test set)
+6. **Split the Data** (into a training set, validation set, and test set)
 7. **Feature Scaling**
 8. **Resample the Data**
 
-## Modelling
+## Model Development
 
 Our neural network consists of 2-3 layers:
-1. We use **ReLU** as activation function for the input layer and the hidden layer
-2. We use **Sigmoid** as activation function for the putput layer
+1. We use **ReLU** as the activation function for the input layer and the hidden layer
+2. We use **Sigmoid** as the activation function for the output layer
 
 ## Training
 
@@ -68,7 +68,7 @@ Here's how to save the model in (.h5) format:
 
 `model.save('my_model.h5')`
 
-Here's how to download the model that already been saved:
+Here's how to download the model that has already been saved:
 
 `from google.colab import files`
 
