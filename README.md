@@ -59,7 +59,7 @@ We use:
 
 ## Saving Our Models
 
-Here's how to save the model:
+Here's how to save the model in SavedModel froamt:
 
 `!mkdir -p saved_model
 model.save('saved_model/my_model')`
@@ -83,3 +83,11 @@ Here's how to download the model that has already been saved:
 `files.download('saved_model/my_model/saved_model.pb')`
 
 `files.download('my_model.h5')`
+
+## Model Deployment
+
+We use **TF Serving** to deploy our models. Here are the steps to deploy models using TF Serving:
+1. Save the model in SavedModel format
+2. Pull Tensorflow serving docker image
+3. Create a docker container that contains the model and Tensorflow serving image
+4. Serve the model using the TensorFlow model server on port 8501 for REST API
